@@ -1,3 +1,4 @@
+import React from "react";
 import { GoodsItem } from "./GoodsItem";
 function GoodsList(props) {
   const { goods = [], addToBasket = Function.prototype } = props;
